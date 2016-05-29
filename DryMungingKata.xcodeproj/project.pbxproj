@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034071171CFB7ED600B533D3 /* TemperatureDelta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034071161CFB7ED600B533D3 /* TemperatureDelta.swift */; };
+		034071191CFB7EF500B533D3 /* ScoringDelta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034071181CFB7EF500B533D3 /* ScoringDelta.swift */; };
+		036421041CFA987F00408941 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036421031CFA987F00408941 /* main.swift */; };
+		0364210D1CFA990000408941 /* munging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0364210C1CFA990000408941 /* munging.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		036420FE1CFA987F00408941 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		034071161CFB7ED600B533D3 /* TemperatureDelta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureDelta.swift; sourceTree = "<group>"; };
+		034071181CFB7EF500B533D3 /* ScoringDelta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoringDelta.swift; sourceTree = "<group>"; };
+		036421001CFA987F00408941 /* DryMungingKata */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DryMungingKata; sourceTree = BUILT_PRODUCTS_DIR; };
+		036421031CFA987F00408941 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0364210A1CFA98D300408941 /* football.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = football.dat; sourceTree = "<group>"; };
+		0364210B1CFA98D300408941 /* weather.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = weather.dat; sourceTree = "<group>"; };
+		0364210C1CFA990000408941 /* munging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = munging.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036420FD1CFA987F00408941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0340711A1CFB7F5E00B533D3 /* Football */ = {
+			isa = PBXGroup;
+			children = (
+				0364210A1CFA98D300408941 /* football.dat */,
+				034071181CFB7EF500B533D3 /* ScoringDelta.swift */,
+			);
+			name = Football;
+			sourceTree = "<group>";
+		};
+		0340711B1CFB874A00B533D3 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				0364210B1CFA98D300408941 /* weather.dat */,
+				034071161CFB7ED600B533D3 /* TemperatureDelta.swift */,
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
+		036420F71CFA987F00408941 = {
+			isa = PBXGroup;
+			children = (
+				036421021CFA987F00408941 /* DryMungingKata */,
+				036421011CFA987F00408941 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		036421011CFA987F00408941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036421001CFA987F00408941 /* DryMungingKata */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036421021CFA987F00408941 /* DryMungingKata */ = {
+			isa = PBXGroup;
+			children = (
+				0340711A1CFB7F5E00B533D3 /* Football */,
+				0340711B1CFB874A00B533D3 /* Weather */,
+				036421031CFA987F00408941 /* main.swift */,
+				0364210C1CFA990000408941 /* munging.swift */,
+			);
+			path = DryMungingKata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036420FF1CFA987F00408941 /* DryMungingKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036421071CFA987F00408941 /* Build configuration list for PBXNativeTarget "DryMungingKata" */;
+			buildPhases = (
+				036420FC1CFA987F00408941 /* Sources */,
+				036420FD1CFA987F00408941 /* Frameworks */,
+				036420FE1CFA987F00408941 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DryMungingKata;
+			productName = DryMungingKata;
+			productReference = 036421001CFA987F00408941 /* DryMungingKata */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036420F81CFA987F00408941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iJoshSmith;
+				TargetAttributes = {
+					036420FF1CFA987F00408941 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 036420FB1CFA987F00408941 /* Build configuration list for PBXProject "DryMungingKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 036420F71CFA987F00408941;
+			productRefGroup = 036421011CFA987F00408941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036420FF1CFA987F00408941 /* DryMungingKata */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036420FC1CFA987F00408941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034071191CFB7EF500B533D3 /* ScoringDelta.swift in Sources */,
+				036421041CFA987F00408941 /* main.swift in Sources */,
+				0364210D1CFA990000408941 /* munging.swift in Sources */,
+				034071171CFB7ED600B533D3 /* TemperatureDelta.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		036421051CFA987F00408941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		036421061CFA987F00408941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		036421081CFA987F00408941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		036421091CFA987F00408941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036420FB1CFA987F00408941 /* Build configuration list for PBXProject "DryMungingKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036421051CFA987F00408941 /* Debug */,
+				036421061CFA987F00408941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036421071CFA987F00408941 /* Build configuration list for PBXNativeTarget "DryMungingKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036421081CFA987F00408941 /* Debug */,
+				036421091CFA987F00408941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 036420F81CFA987F00408941 /* Project object */;
+}
